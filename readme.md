@@ -37,3 +37,13 @@ Basic Mocha/Chai tests included
 Add ability to give a filename opposed to a Json string/object
 
 Add exact/partial match types and return type of match to array
+
+
+## pairify function
+
+Contains pairify, a function that takes a flat array, and combines elements of groups of a set dimension (paramemer) for a single-level multi-dimensional array.  Helps in being able to generate an array via iteration and then clean it up for use.
+
+
+## flatten function
+
+Nothing fancy, just a standard array concat to flatten it, but calls itself in inctances of deeper arrays.
