@@ -1,0 +1,27 @@
+{
+  "name": "json-search",
+  "version": "0.1.0",
+  "description": "Parse and iterate JSON, returning the path for all results matching a search",
+  "license": "WTFPL",
+  "repository": "cmcook82/json-search",
+  "author": {
+    "name": "Chris Cook"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "json",
+    "search"
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  }
+}
